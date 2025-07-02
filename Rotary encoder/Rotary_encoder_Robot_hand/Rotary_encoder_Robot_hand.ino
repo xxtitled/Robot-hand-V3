@@ -6,7 +6,9 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver(0x40);
 
 const uint8_t N = 5;  // 제어할 서보+인코더 채널 수
 
-// 각 채널별 로터리 인코더 핀 배열 정의 // 16채널 PWM 서보 드라이버 핀 SDA -> A4 , SCL --> A5
+// 각 채널별 로터리 인코더 핀 배열 정의 
+// 16채널 PWM 서보 드라이버 핀 SDA -> A4 , SCL --> A5
+// 서보 드라이버 0 ~ 4번 핀 서보모터 연결 --> 0핀 엄지 ~ 4핀 소지
 const uint8_t clkPins[N] = {2, 3, 4, 5, 6};   // A 위상(클럭) 입력 핀
 const uint8_t dtPins [N] = {7, 8, 9, 10, 11}; // B 위상(디리전) 입력 핀
 const uint8_t swPins [N] = {12, 13, A0, A1, A2}; // 엔코더 버튼 입력 핀
