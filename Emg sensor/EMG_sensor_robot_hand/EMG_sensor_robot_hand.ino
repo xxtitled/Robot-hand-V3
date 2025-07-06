@@ -4,7 +4,7 @@
 #define EMG_PIN      A0
 #define NUM_SERVOS   5
 
-// 서보를 꽂은 디지털 PWM 핀 배열 (예: 9,10,11,12,13)
+// 디지털 PWM 핀 배열 --> 엄지 ~ 소지 (9,10,11,12,13)
 const uint8_t servoPins[NUM_SERVOS] = {9, 10, 11, 12, 13};
 
 Servo servos[NUM_SERVOS];
