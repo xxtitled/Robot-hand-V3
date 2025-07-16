@@ -61,7 +61,7 @@ while True:
             thickness=2
         )
 
-        # 홀수는 '구부린 상태', 짝수는 '접은 상태'
+        # 홀수는 '접은 상태', 짝수는 '편 상태'
         if dist_1 < 100: 
             arduino.write(b'1')
         else:
