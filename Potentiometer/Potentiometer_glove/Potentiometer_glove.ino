@@ -8,10 +8,10 @@ Servo myservo5;         // 소지
 
 
 int potpin  = 0;         // 엄지 potentiometer 연결 핀: 0
-int potpin2 = 1;         // dig 2 01 -analog pin used to connect the potentiometer-
-int potpin3 = 2;         // dig 3 02 -analog pin used to connect the potentiometer-
-int potpin4 = 3;         // dig 3 03 -analog pin used to connect the potentiometer-
-int potpin5 = 4;         // dig 4 04 -analog pin used to connect the potentiometer-
+int potpin2 = 1;         // 검지 potentiometer 연결 핀: 1
+int potpin3 = 2;         // 중지 potentiometer 연결 핀: 2
+int potpin4 = 3;         // 약지 potentiometer 연결 핀: 3
+int potpin5 = 4;         // 소지 potentiometer 연결 핀: 4
 
 int val  = 0;            // 
 int val2 = 0;
@@ -66,4 +66,5 @@ delay(25);
 
 
 }
+
 
