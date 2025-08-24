@@ -13,7 +13,7 @@ int potpin3 = 2;         // 중지 potentiometer 연결 핀: 2
 int potpin4 = 3;         // 약지 potentiometer 연결 핀: 3
 int potpin5 = 4;         // 소지 potentiometer 연결 핀: 4
 
-int val  = 0;            // 
+int val  = 0;            // potentiometer 값 초기화
 int val2 = 0;
 int val3 = 0;
 int val4 = 0;
@@ -66,5 +66,6 @@ delay(25);
 
 
 }
+
 
 
