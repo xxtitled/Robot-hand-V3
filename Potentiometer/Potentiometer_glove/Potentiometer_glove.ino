@@ -1,19 +1,19 @@
 #include <Servo.h>
 
-Servo myservo1;         // thumb
-Servo myservo2;         // dig 2
-Servo myservo3;         // dig 3
-Servo myservo4;         // dig 4
-Servo myservo5;         // dig 5
+Servo myservo1;         // 엄지
+Servo myservo2;         // 검지
+Servo myservo3;         // 중지
+Servo myservo4;         // 약지
+Servo myservo5;         // 소지
 
 
-int potpin  = 0;         // thumb 0A -analog pin used to connect the potentiometer-
+int potpin  = 0;         // 엄지 potentiometer 연결 핀: 0
 int potpin2 = 1;         // dig 2 01 -analog pin used to connect the potentiometer-
 int potpin3 = 2;         // dig 3 02 -analog pin used to connect the potentiometer-
 int potpin4 = 3;         // dig 3 03 -analog pin used to connect the potentiometer-
 int potpin5 = 4;         // dig 4 04 -analog pin used to connect the potentiometer-
 
-int val  = 0;            // variable to read the value from the analog pin
+int val  = 0;            // 
 int val2 = 0;
 int val3 = 0;
 int val4 = 0;
@@ -24,11 +24,11 @@ int val5 = 0;
 void setup()
 {
 
-myservo1.attach(9);    // attaches the servo on pin 9 to the servo object
-myservo2.attach(10);   // attaches the servo on pin 10 to the servo object
-myservo3.attach(11);   // attaches the servo on pin 11 to the servo object
-myservo4.attach(12);   // attaches the servo on pin 12 to the servo object
-myservo5.attach(13);   // attaches the servo on pin 13 to the servo object
+myservo1.attach(9);    // 엄지
+myservo2.attach(10);   // 검지
+myservo3.attach(11);   // 중지
+myservo4.attach(12);   // 약지
+myservo5.attach(13);   // 소지
 
 }
 
@@ -66,3 +66,4 @@ delay(25);
 
 
 }
+
