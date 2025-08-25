@@ -34,10 +34,6 @@ myservo5.attach(13);   // 소지
 
 void loop()
 {
-//potentiometer val needs to be determent because the potentiometer does not make the full turn. 
-//Normaly val is between (1, 1023) 
-//VB. val = map(val, 27, 533) instead off 
-
 
 val = analogRead(potpin);           // reads the value of the potentiometer (value between 0 and 1023) 
 val = map(val, 1, 500, 0, 176);    // scale it to use it with the servo (value between 0 and 180) 
@@ -66,6 +62,7 @@ delay(25);
 
 
 }
+
 
 
 
